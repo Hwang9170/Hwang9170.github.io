@@ -6,20 +6,20 @@
 
 아이디어를 바로 굴러가는 제품으로.
 
-[![Live](https://img.shields.io/badge/Live-hwang9170.github.io-ff5a1f?style=for-the-badge)](https://hwang9170.github.io/Hwang.github.io/)
-[![Deploy](https://img.shields.io/github/actions/workflow/status/Hwang9170/Hwang.github.io/pages-deploy.yml?branch=main&style=for-the-badge&label=deploy)](https://github.com/Hwang9170/Hwang.github.io/actions/workflows/pages-deploy.yml)
+[![Live](https://img.shields.io/badge/Live-hwang9170.github.io-ff5a1f?style=for-the-badge)](https://hwang9170.github.io/)
+[![Deploy](https://img.shields.io/github/actions/workflow/status/Hwang9170/Hwang9170.github.io/pages-deploy.yml?branch=main&style=for-the-badge&label=deploy)](https://github.com/Hwang9170/Hwang9170.github.io/actions/workflows/pages-deploy.yml)
 [![GitHub](https://img.shields.io/badge/GitHub-Hwang9170-16150f?style=for-the-badge&logo=github)](https://github.com/Hwang9170)
 
 <br />
 
-<a href="https://hwang9170.github.io/Hwang.github.io/">
+<a href="https://hwang9170.github.io/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/preview-dark.png" />
     <img src="assets/preview-light.png" alt="포트폴리오 메인 화면" width="860" />
   </picture>
 </a>
 
-### [👉 사이트 바로가기](https://hwang9170.github.io/Hwang.github.io/)
+### [👉 사이트 바로가기](https://hwang9170.github.io/)
 
 </div>
 
@@ -51,7 +51,7 @@
 | **Black-Scholes Model** | 블랙-숄즈 옵션 가격 계산기 | [Live](https://black-scholes-model-by-hwang.vercel.app/) · [Code](https://github.com/Hwang9170/Black-Scholes-model) |
 | **금융범죄 예방 학습 앱** | 보이스피싱 범죄 예방 학습 애플리케이션 | [Live](https://app2-blond.vercel.app) · [Code](https://github.com/Hwang9170/app2) |
 
-전체 목록은 [사이트](https://hwang9170.github.io/Hwang.github.io/#work)에서 볼 수 있습니다.
+전체 목록은 [사이트](https://hwang9170.github.io/#work)에서 볼 수 있습니다.
 
 ## 기술
 
