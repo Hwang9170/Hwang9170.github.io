@@ -1,4 +1,152 @@
----
-layout: home
-# Index page
----
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hwang — Software Developer</title>
+  <meta name="description" content="황광호 · Software Developer · AI · Entrepreneurship. 아이디어를 빠르게 만들어 세상에 내놓는 개발자." />
+  <meta property="og:title" content="Hwang — Software Developer" />
+  <meta property="og:description" content="Software Developer · AI · Entrepreneurship" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/102862313?v=4" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <a class="nav__logo" href="#top">HWANG<span>.</span></a>
+    <nav class="nav__links" aria-label="주요 메뉴">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#archive">Archive</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">
+      <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <p class="eyebrow reveal">Software Developer · AI · Entrepreneurship</p>
+      <h1 class="hero__title reveal">
+        아이디어를<br />
+        <em>바로 굴러가는</em><br />
+        제품으로.
+      </h1>
+      <p class="hero__lead reveal">
+        안녕하세요, 황광호입니다. 떠오른 아이디어를 며칠 안에 실제로 쓸 수 있는 서비스로 만들어 배포합니다.
+        AI, 핀테크, 교육, 시뮬레이션까지 분야를 가리지 않고 직접 만들고 부딪히며 배웁니다.
+      </p>
+      <div class="hero__cta reveal">
+        <a class="btn btn--primary" href="#work">프로젝트 보기</a>
+        <a class="btn" href="https://github.com/Hwang9170" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+
+      <dl class="stats reveal" id="stats">
+        <div><dt>Public repos</dt><dd data-stat="repos">58</dd></div>
+        <div><dt>Live deploys</dt><dd data-stat="live">39</dd></div>
+        <div><dt>Coding since</dt><dd>2022</dd></div>
+        <div><dt>Based in</dt><dd>Korea</dd></div>
+      </dl>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>TypeScript</span><span>React</span><span>Next.js</span><span>JavaScript</span><span>Python</span><span>LLM</span><span>Three.js</span><span>Data Analysis</span><span>Vercel</span><span>GitHub Actions</span>
+        <span>TypeScript</span><span>React</span><span>Next.js</span><span>JavaScript</span><span>Python</span><span>LLM</span><span>Three.js</span><span>Data Analysis</span><span>Vercel</span><span>GitHub Actions</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section__head reveal">
+        <span class="section__num">01</span>
+        <h2>About</h2>
+      </div>
+      <div class="about">
+        <div class="about__photo reveal">
+          <img src="https://avatars.githubusercontent.com/u/102862313?v=4" alt="Hwang 프로필 사진" width="320" height="320" loading="lazy" />
+        </div>
+        <div class="about__text reveal">
+          <p class="about__big">빠르게 만들고, 직접 써보고, 계속 고칩니다.</p>
+          <p>
+            2022년부터 60개 가까운 프로젝트를 직접 만들었고, 그중 대부분을 실제로 배포했습니다.
+            해커톤에서 하룻밤 만에 만든 LLM 데모부터, 매일 자동으로 발행되는 IT 뉴스 카드뉴스,
+            3D 교육용 시뮬레이션까지 &mdash; "일단 작동하게 만들기"가 제 출발점입니다.
+          </p>
+          <div class="skills">
+            <div>
+              <h3>Frontend</h3>
+              <ul><li>TypeScript</li><li>React / Next.js</li><li>HTML · CSS</li><li>Three.js</li></ul>
+            </div>
+            <div>
+              <h3>AI · Data</h3>
+              <ul><li>Python</li><li>LLM 서비스 개발</li><li>Jupyter / 데이터 분석</li><li>Transformer 이상치 탐지</li></ul>
+            </div>
+            <div>
+              <h3>Ship</h3>
+              <ul><li>Vercel</li><li>GitHub Pages</li><li>GitHub Actions 자동화</li><li>랜딩 · MVP 제작</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section" id="work">
+      <div class="section__head reveal">
+        <span class="section__num">02</span>
+        <h2>Selected Work</h2>
+      </div>
+      <div class="filters reveal" id="workFilters" role="tablist"></div>
+      <div class="work" id="workGrid"></div>
+    </section>
+
+    <!-- ARCHIVE -->
+    <section class="section" id="archive">
+      <div class="section__head reveal">
+        <span class="section__num">03</span>
+        <h2>Archive</h2>
+        <p class="section__sub">GitHub에서 실시간으로 불러온 전체 저장소</p>
+      </div>
+      <div class="archive-tools reveal">
+        <input type="search" id="archiveSearch" placeholder="저장소 검색…" aria-label="저장소 검색" />
+        <label class="toggle"><input type="checkbox" id="liveOnly" /> 데모 있는 것만</label>
+      </div>
+      <ol class="archive" id="archiveList">
+        <li class="archive__empty">불러오는 중…</li>
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="section__head reveal">
+        <span class="section__num">04</span>
+        <h2>Contact</h2>
+      </div>
+      <p class="contact__big reveal">함께 만들고 싶은 게 있다면<br /><a href="https://github.com/Hwang9170" target="_blank" rel="noopener">편하게 연락주세요 ↗</a></p>
+      <ul class="contact__links reveal">
+        <li><a href="https://github.com/Hwang9170" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://hwang0415.vercel.app/CV.pdf" target="_blank" rel="noopener">CV (PDF)</a></li>
+        <li><a href="https://www.instagram.com/it_4_all" target="_blank" rel="noopener">Instagram · @it_4_all</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year">2026</span> Hwang</span>
+    <a href="#top">맨 위로 ↑</a>
+  </footer>
+
+  <script src="assets/projects.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
